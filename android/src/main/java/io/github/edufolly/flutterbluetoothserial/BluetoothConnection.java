@@ -222,7 +222,6 @@ public abstract class BluetoothConnection
                 try {
                     socket = serverSocket.accept();
                 } catch (IOException e) {
-                    e.printStackTrace();
                     onConnAccepted(false);
                 }
 
